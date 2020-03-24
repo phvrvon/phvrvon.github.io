@@ -2,13 +2,15 @@ body {
     color:white;
       margin-left: 250px;
 
-  background-color: #3aafa9;
+  background-color: grey;
 }
 
-h1{
+h1,h2{
 	
-	color:black;
+	color:red;
 }
+
+
 
 ul.navbar {
   position: absolute;
@@ -19,17 +21,30 @@ ul.navbar {
 
 
 }
-li {
+
+ul.navbar li {
   margin: 15px 0;
   padding: 5px;
   border-right: 1px solid #17252a;
   border-top: 1px solid #17252a;
   border-left: 10px solid #17252a;
   border-bottom: 1px solid #17252a;
+}
 
-a:link {
+a.link {
   color: white;
 }
+
+.expl{
+  color: orange;
+}
+.date{
+  color: green;
+}
+.price{
+  color: yellow;
+}
+
 
 a:visited {
   color: white;

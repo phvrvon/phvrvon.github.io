@@ -38,6 +38,7 @@ document.getElementById("event").addEventListener("mouseover", changeSrc);
 
 
 }
+
 function addItem(){
 	let v =document.getElementById("buy").value;
 	let t = document.createTextNode(v)
